@@ -8,7 +8,7 @@ android {
     namespace "de.syss.MifareClassicTool"
 
     defaultConfig {
-        applicationId "de.syss.MifareClassicTool"
+        applicationId "de.syss.MifareClassicToolPlus"
         minSdk 19
         targetSdk 34
         versionCode 68
@@ -36,4 +36,7 @@ dependencies {
     implementation "androidx.core:core:1.13.1"
     implementation "androidx.preference:preference:1.2.1"
     implementation "androidx.appcompat:appcompat:1.6.1"
+    implementation "com.google.android.material:material:1.11.0"
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation "androidx.coordinatorlayout:coordinatorlayout:1.2.0"
 }
